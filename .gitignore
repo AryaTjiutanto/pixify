@@ -1,0 +1,7 @@
+# Virtual environment
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
