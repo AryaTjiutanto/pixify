@@ -1,2 +1,0 @@
-[console_scripts]
-pixify = pixify.cli:main
