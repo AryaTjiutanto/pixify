@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pixit",
+    name="pixify",
     version="0.1.0",
     author="Arya Tjiutanto",
     author_email="aryatjiutanto.dev@gmail.com",
     description="A simple CLI image converter built with Pillow and Typer.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AryaTjiutanto/pixit",
+    url="https://github.com/AryaTjiutanto/pixify",
     packages=find_packages(),
     install_requires=[
         'pillow',
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pixit = pixit.cli:main",
+            "pixify = pixify.cli:main",
         ]
     },
     classifiers=[

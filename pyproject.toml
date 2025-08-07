@@ -1,5 +1,5 @@
 [project]
-name = "pixit"
+name = "pixify"
 version = "0.1.0"
 description = "A simple CLI image converter built with Pillow and Typer."
 readme = "README.md"
@@ -26,10 +26,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AryaTjiutanto/pixit"
+Homepage = "https://github.com/AryaTjiutanto/pixify"
 
 [project.scripts]
-pixit = "pixit.cli:main"
+pixify = "pixify.cli:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
