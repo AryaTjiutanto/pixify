@@ -1,6 +1,6 @@
 [project]
 name = "pixify"
-version = "0.1.0"
+version = "0.0.1"
 description = "A simple CLI image converter built with Pillow and Typer."
 readme = "README.md"
 authors = [

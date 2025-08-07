@@ -1,8 +1,9 @@
+
 from setuptools import setup, find_packages
 
 setup(
     name="pixify",
-    version="0.1.0",
+    version="0.0.1",
     author="Arya Tjiutanto",
     author_email="aryatjiutanto.dev@gmail.com",
     description="A simple CLI image converter built with Pillow and Typer.",

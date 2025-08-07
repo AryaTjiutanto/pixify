@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: pixify
+Version: 0.1.0
+Summary: A simple CLI image converter built with Pillow and Typer.
+Home-page: https://github.com/AryaTjiutanto/pixify
+Author: Arya Tjiutanto
+Author-email: Arya Tjiutanto <aryatjiutanto.dev@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/AryaTjiutanto/pixify
+Keywords: cli,image,converter,pillow,typer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: typer
+Requires-Dist: yaspin
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# 🖼️ pixify
+
+A simple and flexible command-line tool to convert images between formats using Pillow (e.g., PNG, JPG, WEBP, BMP, GIF, TIFF, etc.), resize them, and process either single files or entire folders.
+
+---
+
+## ✨ Features
+
+- Convert a single image file or an entire folder
+- Supports popular output formats: `png`, `jpg`, `webp`, `bmp`, `gif`, `tiff`, etc.
+- Resize images using simple `WIDTHxHEIGHT` format
+- Optional file extension filtering in batch mode
+- Set custom output filenames and folders
+
+---
