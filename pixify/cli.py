@@ -1,6 +1,6 @@
 import typer
 from typing import Optional
-from pixit.services.converter import convert_image, convert_all_image_in_folder
+from pixify.services.converter import convert_image, convert_all_image_in_folder
 import os
 
 app = typer.Typer()

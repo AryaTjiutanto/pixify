@@ -1,4 +1,4 @@
-# 🖼️ Pixit
+# 🖼️ pixify
 
 A simple and flexible command-line tool to convert images between formats using Pillow (e.g., PNG, JPG, WEBP, BMP, GIF, TIFF, etc.), resize them, and process either single files or entire folders.
 

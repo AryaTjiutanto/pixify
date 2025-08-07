@@ -1,6 +1,6 @@
 from PIL import Image
-from pixit.helpers.file import get_output_path
-from pixit.helpers.Option import parse_size
+from pixify.helpers.file import get_output_path
+from pixify.helpers.Option import parse_size
 from typing import Optional
 from yaspin import yaspin
 import os
